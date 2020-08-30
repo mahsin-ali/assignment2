@@ -1,0 +1,181 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+a{
+text-decoration: none;
+}
+
+
+.banner{
+background-image: url(bumble-bee-5497276_1920.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+height: 100vh;
+backface-visibility: overlay;
+
+}
+
+.menu-bar{
+	text-align: center;
+	background: #2B36A6;
+	height: 70px;
+	line-height: 70px;
+}
+
+
+.menu-bar ul li{
+
+list-style: none;
+display: inline;
+margin-left: 10px;
+margin-right: 10px;
+}
+
+
+.menu-bar ul li a{
+	color: white;
+	font-size: 18px;
+	transition: 0.5s;
+}
+
+.menu-bar ul li a:hover{
+	color: blue;
+	transform: scale(2);
+	transition: 0.5s;
+}
+
+.padding{
+	margin: 20px;
+}
+
+
+
+.social-icon{
+
+text-align: center;
+margin: 20px 0;
+top: 500px;
+left: 600px;
+
+
+
+}
+.social-icon ul li{
+	display: inline-block;
+	margin: 0 03px;
+
+}
+
+.social-icon ul li a i{
+	height: 25px;
+	width: 25px;
+	background-color: blue;
+	color: white;
+	font-size: 18px;
+	text-align: center;
+	line-height: 25px;
+	border-radius: 25px;
+	transition: 0.5 ease-in-out;
+
+}
+
+.social-icon ul li a i:hover{
+	background-color: orange;
+transition: 0.5 ease-in-out;
+transform: scale(1.6);
+
+}
+
+
+
+.form-section{
+	text-align: center;
+
+}
+
+
+.wrong{
+	position: absolute;
+	top: 150px;
+	left: 100px;
+
+}
+
+.wrong h1 i{
+	color: #0FDEF3;
+}
+.wrong h1 i u{
+	color: blue;
+} 
+
+.wrong h3{
+	color: white;
+}
+
+
+.wrong p{
+	color: yellow;
+}
+.leftbox{
+	height: 400px;
+	width: 300px;
+	position: absolute;
+	background: #2C5772 ;
+	text-align: center;
+}
+.leftbox p{
+	text-align: center;
+}
+
+.account{
+	color: #E4F745;
+}
+.account:hover{
+	color: blue;
+	transform: scale(2);
+	transition: 0.5s;
+}
+.form-body{
+	height: 400px;
+	width: 600px;
+	background: gray;
+	position: absolute;
+	top: 150px;
+	left: 600px;
+}
+
+
+
+
+.title{
+	position: absolute;
+
+}
+
+
+
+.main-form{
+	height: 400px;
+	width: 300px;
+	position: absolute;
+	left: 300px;
+	background: #18ABC6 ;
+	text-align: center;
+
+}
+
+
+
+.main-form form{
+	color: black;
+	text-align:center;
+	background:rgb(0,0,0,0.5);
+	
+
+
+}
+
